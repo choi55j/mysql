@@ -26,8 +26,7 @@
             $_SESSION["userid"]=$row["id"];
             $_SESSION["username"]=$row["name"];
 
-#            echo "<script> location.href='login.php';</script>";
-            echo"로그인 성공";
+            echo "<script> location.href='index.php';</script>";
         }
     }
 ?>

@@ -7,27 +7,30 @@ a:hover { text-decoration:none; color: #222222; }
 a:visited { text-decoration:none; color: #222222; }
 a:active { text-decoration:none; color: #222222; }
 /* 버튼 */
-.buttons { text-align: right; margin: 20px; }
+.buttons { width: 600px; text-align: right; margin: 20px auto; }
 .buttons li { display: inline; }
 .buttons button { padding: 3px 20px; cursor: pointer; }
-/* 게시판 제목 */
-h2 { margin-top: 20px;	padding: 10px; border-bottom: solid 3px black; }
-/* 게시판 글쓰기(form.php) */
-.board_form span { display: inline-block; }
-.board_form .col1 { width: 15%; float: left }
-.board_form .col2 { width: 85%; float: left }
-.board_form li { height: 50px; padding: 12px; border-bottom: solid 1px #dddddd; }
-.board_form input { width: 100%; height: 25px; }
-.board_form .area { height: 155px; }
-.board_form textarea { width: 100%; height: 130px; }
-.board_form .email input { width: 150px; }
-/* 게시판 목록보기(list.php) */
-.board_list li { padding: 10px 0; border-bottom: solid 1px #dddddd; }
-.board_list span { display: inline-block; text-align: center; }
-.board_list .col1 { width: 10%; }
-.board_list .col2 { width: 50%; text-align: left; }
-.board_list .col3 { width: 15%; }
-/* 게시판 내용보기(view.php) */
-.board_view .row1 {	padding: 15px; border-bottom: solid 1px #aaaaaa; }
-.board_view .row2 {	padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; }
-.board_view .col2 { float: right; }
+/* 제목 */
+h2 { width: 600px; margin-top: 20px; margin: 0 auto; padding: 10px; border-bottom: solid 3px black; }
+/* 회원가입 폼(member_form.php)*/
+.join_form { width: 600px; height: 235px; margin: 0 auto; border-bottom: solid 1px #cccccc; }
+.join_form li {	height: 40px; padding: 20px 10px;}
+.join_form button { padding: 3px 10px; }
+.join_form .col1 { width: 130px; }
+.join_form .col2 { width: 360px; }
+.join_form input { width: 360px; height: 30px; }
+.join_form span { display: inline-block; }
+/* 로그인 폼 (login_form.php)*/
+.login_title { width:400px; margin: 0 auto; }
+.login_form { width: 400px; height: 210px; margin: 0 auto; border-bottom: solid 1px #cccccc; 
+	padding-top: 15px; }
+.login_form li { height: 50px; padding: 20px 20px;}
+.login_form span { display: inline-block; }
+.login_form .col1 { width: 100px; }
+.login_form .col2 { width: 250px; }
+.login_form input { width: 250px; height: 30px; }
+.login_form button { padding: 8px 156px; cursor: pointer;}
+/* 메인 화면(index.php) */
+.header { width: 450px; margin: 0 auto; }
+.header .logo { float: left; margin-top: 30px; }
+.header .top { float: right; margin-top: 30px; }

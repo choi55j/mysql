@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- 생성 시간: 23-11-02 08:34
+-- 생성 시간: 23-11-03 01:52
 -- 서버 버전: 10.4.27-MariaDB
 -- PHP 버전: 8.2.0
 
@@ -69,13 +69,7 @@ CREATE TABLE `memberboard` (
 --
 
 INSERT INTO `memberboard` (`num`, `id`, `name`, `subject`, `content`, `regist_day`, `file_name`, `file_type`, `file_copied`) VALUES
-(1, 'c', 'c', 'ì§‘ê°€ê³ ì‹¶ë‹¤', 'ì§‘ê°€ê³ ì‹¶ë‹¤', '2023-10-30 (07:30)', '', '', ''),
-(2, 'c', 'c', 'ì§‘ê°€ê³ ì‹¶ë‹¤', 'ì§‘ê°€ê³  ì‹¶ë‹¤ã…ã…ã…ã…ã…ã…ã…ã…ã…ã…', '2023-10-30 (07:37)', '', '', ''),
-(3, 'c', 'c', 'ã„´ã„´ã„´', 'ã„´ã„´ã„´', '2023-10-30 (07:39)', '', '', ''),
-(4, 'c', 'c', '1', '1', '2023-10-30 (07:51)', '', '', ''),
-(5, 'c', 'c', 'ã…', 'ã…', '2023-10-30 (07:54)', '', '', ''),
-(6, 'a', 'a', 'a', 'a', '2023-11-02 (08:09)', 'ì˜ë§¤ ì°¾ì•„ ì‚¼ë§Œë¦¬.jpg', 'image/jpeg', '2023_11_02_08_09_50.jpg'),
-(7, 'a', 'a', '1', '1', '2023-11-02 (08:12)', '123.jpg', 'image/jpeg', '2023_11_02_08_12_08.jpg');
+(12, 'a', 'a', 'a', 'a', '2023-11-03 (01:52)', '123.jpg', 'image/jpeg', '2023_11_03_01_52_17.jpg');
 
 -- --------------------------------------------------------
 
@@ -102,7 +96,8 @@ INSERT INTO `members` (`num`, `id`, `pass`, `name`, `email`, `regist_day`, `leve
 (21, 'c', 'c', 'c', 'c', '2023-10-20 (02:26)', 9, 0),
 (22, '', '', '', '', '2023-11-02 (08:06)', 9, 0),
 (23, '', '', '', '', '2023-11-02 (08:06)', 9, 0),
-(24, 'a', 'a', 'a', 'a', '2023-11-02 (08:08)', 9, 0);
+(24, 'a', 'a', 'a', 'a', '2023-11-02 (08:08)', 9, 0),
+(25, 'a', 'a', 'a', 'a', '2023-11-03 (01:28)', 9, 0);
 
 --
 -- 덤프된 테이블의 인덱스
@@ -140,13 +135,13 @@ ALTER TABLE `freeboard`
 -- 테이블의 AUTO_INCREMENT `memberboard`
 --
 ALTER TABLE `memberboard`
-  MODIFY `num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- 테이블의 AUTO_INCREMENT `members`
 --
 ALTER TABLE `members`
-  MODIFY `num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
